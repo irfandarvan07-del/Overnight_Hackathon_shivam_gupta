@@ -1,1 +1,12 @@
+txn_id,timestamp,from_vpa,to_vpa,amount,message,is_new_payee
+T0001,2025-12-05T10:00:00,user01@upi,shop01@upi,150.00,for groceries,0
+T0002,2025-12-05T10:05:00,user01@upi,testacc1@upi,2.00,verify,1
+T0003,2025-12-05T10:05:30,user01@upi,testacc2@upi,3.00,verify,1
+T0004,2025-12-05T10:07:00,user01@upi,fraudmerch@upi,8000.00,payment for order,1
+T0005,2025-12-05T11:00:00,user02@upi,shop02@upi,450.00,monthly bill,0
+T0006,2025-12-05T11:05:00,user02@upi,someone@upi,5.00,please verify otp,1
+T0007,2025-12-05T11:07:00,user02@upi,someone@upi,500.00,,1
+T0008,2025-12-05T12:00:00,user03@upi,shop03@upi,200.00,for snacks,0
+T0009,2025-12-05T12:03:00,user03@upi,shop03@upi,250.00,for snacks,0
+T0010,2025-12-05T23:55:00,user04@upi,unknown@upi,15000.00,,1
 
